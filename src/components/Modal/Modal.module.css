@@ -1,0 +1,46 @@
+.productCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    color: black;
+    text-align: center;
+    width: 350px;
+}
+
+.productName {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.productPrice {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.orderButton {
+    background-color: #FED84C;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Стили для того самого счетчика из ДЗ */
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.counter button {
+    background: #FED84C;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}

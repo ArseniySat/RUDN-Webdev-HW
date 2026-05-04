@@ -1,0 +1,27 @@
+.products {
+    background-color: #FFFFFF;
+    padding: 80px 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 80px;
+    font-weight: normal;
+    color: #2E363E;
+}
+
+/* Сама сетка, про которую ты спрашивал */
+.productsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
